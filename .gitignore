@@ -1,0 +1,6 @@
+venv
+plots
+
+.DS_Store
+.vscode/settings.json
+.ipynb_checkpoints
