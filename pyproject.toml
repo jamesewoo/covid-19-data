@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "covid-19-data"
+version = "0.1.0"
+description = ""
+authors = ["James Woo <james.w@verypossible.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+pandas = "^1.0.5"
+matplotlib = "^3.2.2"
+numpy = "^1.18.5"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+pytest = "^5.4.3"
+pylint = "^2.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
