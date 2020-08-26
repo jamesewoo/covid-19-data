@@ -1,8 +1,7 @@
-from pandas import DataFrame, read_csv
+import os
+
 import matplotlib.pyplot as plt
 import pandas as pd
-from numpy import math
-import os
 
 
 class Utils:
