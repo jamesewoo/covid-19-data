@@ -11,4 +11,4 @@ make code_format:
 
 make sync:
 	git fetch upstream
-	git rebase upstream/master
+	git merge upstream/master
