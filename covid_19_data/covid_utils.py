@@ -52,7 +52,7 @@ class Utils:
                 ].dropna()
                 df["date"] = df.index.date
                 if not df.empty:
-                    df.plot.bar(x="date", subplots=True)
+                    df.plot.line(x="date", subplots=True)
                     plt.savefig(f"plots/{state}/{county}.png", bbox_inches="tight")
                     plt.close()
 
